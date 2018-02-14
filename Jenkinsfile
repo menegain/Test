@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Shell script') {
       steps {
-        sh '''echo -e "Host de la base de donnée : ";
+        sh '''echo "Host de la base de donnée : ";
 read dbhost;
 
 echo $dbhost;
